@@ -1,0 +1,18 @@
+﻿2015/10/07 22:25:35 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\go\MonteCalroGo\go\go\go.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt go.cpp
+         go.cpp
+     1>d:\go\montecalrogo\go\go\go.cpp(266): error C2146: 構文エラー : ';' が、識別子 'node' の前に必要です。
+     1>d:\go\montecalrogo\go\go\go.cpp(266): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
+     1>d:\go\montecalrogo\go\go\go.cpp(266): error C2065: 'NODE_MAX' : 定義されていない識別子です。
+     1>d:\go\montecalrogo\go\go\go.cpp(271): error C2378: 'NODE' : 再定義されています。シンボルは typedef でオーバーロードできません
+                 d:\go\montecalrogo\go\go\go.cpp(266) : 'NODE' の宣言を確認してください。
+     1>d:\go\montecalrogo\go\go\go.cpp(275): error C2065: 'PointerNode' : 定義されていない識別子です。
+     1>d:\go\montecalrogo\go\go\go.cpp(279): error C2065: 'PointerNode' : 定義されていない識別子です。
+     1>d:\go\montecalrogo\go\go\go.cpp(292): error C3861: 'search_uct': 識別子が見つかりませんでした
+     1>プロジェクト "D:\go\MonteCalroGo\go\go\go.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.13

@@ -1,0 +1,18 @@
+﻿2015/10/26 7:59:32 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\go\Source\Dame\Dame\Dame.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /F 9000000000 Dame.cpp
+         Dame.cpp
+     1>d:\go\source\dame\dame\dame.cpp(207): warning C4101: 'win' : ローカル変数は 1 度も使われていません。
+     1>d:\go\source\dame\dame\dame.cpp(270): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\go\source\dame\dame\dame.cpp(244): warning C4101: 'IllegalPlace' : ローカル変数は 1 度も使われていません。
+     1>d:\go\source\dame\dame\dame.cpp(245): warning C4101: 'Place' : ローカル変数は 1 度も使われていません。
+     1>d:\go\source\dame\dame\dame.cpp(401): warning C4101: 'flag' : ローカル変数は 1 度も使われていません。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\go\Source\Dame\Debug\Dame.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\go\Source\Dame\Debug\Dame.pdb" /HEAP:"9000000000","9000000000" /STACK:"9000000000","9000000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\go\Source\Dame\Debug\Dame.lib" /MACHINE:X86 Debug\Dame.obj
+         Dame.vcxproj -> D:\go\Source\Dame\Debug\Dame.exe
+     1>プロジェクト "D:\go\Source\Dame\Dame\Dame.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.50

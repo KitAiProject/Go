@@ -1,0 +1,14 @@
+﻿2015/10/26 22:05:16 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\go\GoBetaGUI\GoAlphaGUI\GoAlphaGUI.vcxproj" (Build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GoAlphaGUI.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GoBeta.cpp
+         GoBeta.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\go\GoBetaGUI\Debug\GoBetaGUI.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\go\GoBetaGUI\Debug\GoBetaGUI.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\go\GoBetaGUI\Debug\GoBetaGUI.lib" /MACHINE:X86 Debug\GoBeta.obj
+         GoAlphaGUI.vcxproj -> D:\go\GoBetaGUI\Debug\GoBetaGUI.exe
+     1>プロジェクト "D:\go\GoBetaGUI\GoAlphaGUI\GoAlphaGUI.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:00.81

@@ -1,0 +1,58 @@
+﻿2015/10/26 19:25:26 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\go\GoBeta\GoBeta\GoBeta.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GoBeta.cpp dame.cpp
+         GoBeta.cpp
+     1>d:\go\gobeta\gobeta\gobeta.cpp(15): error C2374: 'komi' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(6) : 'komi' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(21): error C2374: 'board' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(22) : 'board' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(34): error C2374: 'dir4' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(35) : 'dir4' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(35): error C2374: 'dir8' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(36) : 'dir8' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(36): error C2374: 'ON' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(37) : 'ON' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(37): error C2374: 'OFF' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(38) : 'OFF' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(38): error C2374: 'DAME' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(39) : 'DAME' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(39): error C2374: 'ILLEGAL' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(40) : 'ILLEGAL' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(44): error C2374: 'moves' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(45) : 'moves' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(46): error C2374: 'all_playouts' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(47) : 'all_playouts' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(47): error C2374: 'flag_test_playout' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(48) : 'flag_test_playout' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(56): error C2374: 'FILL_EYE_ERR' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(57) : 'FILL_EYE_ERR' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(57): error C2374: 'FILL_EYE_OK' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(58) : 'FILL_EYE_OK' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(65): error C2371: 'CHILD' : 再定義されています。異なる基本型です。
+                 d:\go\gobeta\gobeta\gobeta.h(66) : 'CHILD' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(72): error C2371: 'NODE' : 再定義されています。異なる基本型です。
+                 d:\go\gobeta\gobeta\gobeta.h(73) : 'NODE' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(75): error C2374: 'NODE_EMPTY' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(76) : 'NODE_EMPTY' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(76): error C2374: 'ILLEGAL_PLACE' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(77) : 'ILLEGAL_PLACE' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(77): error C2374: 'DEPTH_MAX' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(78) : 'DEPTH_MAX' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(78): error C2369: 'Path' : 再定義されています。異なる添字です。
+                 d:\go\gobeta\gobeta\gobeta.h(79) : 'Path' の宣言を確認してください。
+     1>d:\go\gobeta\gobeta\gobeta.cpp(79): error C2374: 'NodeNum' : 再定義されています。2 回以上初期化されています。
+                 d:\go\gobeta\gobeta\gobeta.h(80) : 'NodeNum' の宣言を確認してください。
+         コードを生成中...
+         コンパイル中...
+         dame.cpp
+     1>d:\go\gobeta\gobeta\dame.cpp(15): warning C4101: 'win' : ローカル変数は 1 度も使われていません。
+     1>d:\go\gobeta\gobeta\dame.cpp(78): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>d:\go\gobeta\gobeta\dame.cpp(52): warning C4101: 'IllegalPlace' : ローカル変数は 1 度も使われていません。
+     1>d:\go\gobeta\gobeta\dame.cpp(53): warning C4101: 'Place' : ローカル変数は 1 度も使われていません。
+         コードを生成中...
+     1>プロジェクト "D:\go\GoBeta\GoBeta\GoBeta.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.33
